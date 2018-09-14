@@ -5,6 +5,11 @@ def my_collect(array)
   
   while counter < array.size
     
-    yield[]
+    yield(array[counter])
+    counter += 1
+    
+  end
+  
+  
   
 end
